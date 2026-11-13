@@ -1,0 +1,732 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Stanley Francis Ewenike",
+    "label": "Evaluation Senior Manager and Analytics Lead, Data Operations",
+    "email": "stanleyewenike@icloud.com",
+    "url": "https://stanleyewenike.github.io/",
+    "summary": "Data Scientist with a PhD in Computer Science and over seven years applying machine learning, statistical modelling and advanced analytics across healthcare and enterprise domains. Skilled in Python, SQL and cloud platforms (Azure, AWS, GCP) for predictive models, record linkage and production data pipelines. Recent work at NHS England includes a reproducible record-linkage pipeline for 1,700+ programme participants and a common data model linking 7,000+ records across 13 datasets, backed by a research background in distributed and context-aware systems. Right to work in the UK (indefinite leave to remain); no visa sponsorship required.",
+    "location": {
+      "city": "Preston",
+      "region": "Lancashire, UK"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://linkedin.com/in/stan-ewenike"
+      },
+      {
+        "network": "GitHub",
+        "url": "https://github.com/stanleyewenike/my_portfolio"
+      },
+      {
+        "network": "Credly",
+        "url": "https://credly.com/users/stanley-ewenike"
+      },
+      {
+        "network": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=0mQPz98AAAAJ"
+      },
+      {
+        "network": "ORCID",
+        "url": "https://orcid.org/0000-0002-0561-1383"
+      },
+      {
+        "network": "Scopus",
+        "url": "https://scopus.com/authid/detail.uri?authorId=57191241816"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "NHS England, Innovation, Research, Life Sciences and Strategy",
+      "position": "Evaluation Senior Manager and Analytics Lead, Data Operations",
+      "startDate": "2024-04",
+      "highlights": [
+        "Built a tested record-linkage pipeline checking 1,700+ Clinical Entrepreneur Programme participants against company and funding registers, with byte-identical outputs across runs; identified and withdrew a survivorship-biased finding before publication",
+        "Built a common data model resolving 7,000+ records from 13 datasets across 6 innovation programmes, with tiered entity resolution, an 11-page Streamlit app and 42 automated tests",
+        "Built a 24-step Python pipeline and Streamlit dashboard that produce data quality, variation and strategic reports and 15 network data packs for the Health Innovation Networks from one command",
+        "Ran readiness assurance for all 15 Health Innovation Networks, achieving a full response after cutting the instrument from 22 questions to 6, and reported prioritised recommendations to the Steering and governance group",
+        "Apply statistical and machine learning models for trend analysis, classification and clustering to support strategic decisions",
+        "Architect ETL pipelines using SQL, Databricks and Microsoft Fabric for enterprise data harmonisation",
+        "Use generative AI and LLM copilots for code optimisation, faster development and automated documentation"
+      ]
+    },
+    {
+      "name": "NHS England",
+      "position": "Data Analyst",
+      "startDate": "2022-11",
+      "endDate": "2024-03",
+      "highlights": [
+        "Developed clustering and decision tree models to analyse stakeholder feedback and identify actionable patterns",
+        "Built ETL pipelines extracting and transforming data from Amazon S3, MongoDB and enterprise data warehouses",
+        "Applied statistical analysis to surface trends, anomalies and data quality issues in complex datasets",
+        "Wrote T-SQL extracts for the NHS Innovation Service dashboard, using temporal tables and working-day calculations",
+        "Used Docker for reproducible ML environments and Git and GitHub for version control"
+      ]
+    },
+    {
+      "name": "Warrington and Halton Teaching Hospitals NHS Foundation Trust",
+      "position": "Principal Information Analyst",
+      "startDate": "2021-08",
+      "endDate": "2022-10",
+      "highlights": [
+        "Line managed and mentored a team of 5 analysts, and contributed to organisational data strategy",
+        "Built classification models to identify patient pathways, supporting clinical decision-making and resource planning",
+        "Built a T-SQL and Power BI tool prioritising ophthalmology follow-ups against the GIRFT 25% Guaranteed Activity Date standard",
+        "Developed time series models to analyse trends and forecast demand for operational planning",
+        "Applied clustering techniques to improve cohort identification and segmentation"
+      ]
+    },
+    {
+      "name": "Southport and Ormskirk Hospital NHS Trust",
+      "position": "Data Quality Analyst",
+      "startDate": "2020-12",
+      "endDate": "2021-08",
+      "highlights": [
+        "Built a Data Quality Assessment Tool and a reusable NHS number Modulus 11 validation function",
+        "Applied data mining and statistical modelling to identify patterns and anomalies in reference data",
+        "Developed Power BI dashboards for data quality metrics and benchmarking"
+      ]
+    },
+    {
+      "name": "Manchester University NHS Foundation Trust",
+      "position": "Senior Information Analyst",
+      "startDate": "2020-08",
+      "endDate": "2020-12",
+      "highlights": [
+        "Built regression models to forecast operational demand and support capacity planning",
+        "Prepared maternity data for bulk GROW customised centile calculation to monitor small-for-gestational-age babies"
+      ]
+    },
+    {
+      "name": "Lancashire Teaching Hospitals NHS Foundation Trust",
+      "position": "Data Analyst",
+      "startDate": "2019-08",
+      "endDate": "2020-08",
+      "highlights": [
+        "Built dashboards for CNST Saving Babies' Lives v2 and other maternity safety standards, and automated GP discharge letters",
+        "Applied statistical process control to monitor change initiatives and measure impact",
+        "Translated complex analyses into clear visualisations using data storytelling techniques"
+      ]
+    },
+    {
+      "name": "Staffordshire University",
+      "position": "Research Developer / Part-Time Lecturer",
+      "startDate": "2014-08",
+      "endDate": "2019-08",
+      "highlights": [
+        "Conducted systematic literature reviews and feasibility studies for HEIF research projects",
+        "Researched collaboration gaps in distributed cloud software teams, then created a framework-selection process, an Activity Theory-based collaboration methodology and a layered microservices architecture",
+        "Implemented a proof-of-concept cloud platform with an API gateway, an activity orchestration layer and stakeholder services",
+        "Delivered instruction in Python, databases, software development and computing fundamentals"
+      ]
+    },
+    {
+      "name": "Hewlett-Packard, Bracknell",
+      "position": "Reporting Analyst (MSc placement year)",
+      "startDate": "2011-01",
+      "endDate": "2012-03",
+      "highlights": [
+        "Developed enterprise reporting solutions with automated ETL workflows using SQL Server and SSIS"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "studyType": "PhD Computer Science",
+      "institution": "Staffordshire University, UK",
+      "startDate": "2013",
+      "endDate": "2023"
+    },
+    {
+      "studyType": "Postgraduate Certificate in Research Methods",
+      "institution": "Staffordshire University, UK",
+      "startDate": "2016",
+      "endDate": "2017"
+    },
+    {
+      "studyType": "Master of Science in Computing Solutions for Business",
+      "institution": "Staffordshire University, UK",
+      "startDate": "2010",
+      "endDate": "2012"
+    },
+    {
+      "studyType": "Bachelor of Technology in Computer Science",
+      "institution": "Abubakar Tafawa Balewa University, Nigeria",
+      "startDate": "2001",
+      "endDate": "2008"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Microsoft Certified: Fabric Analytics Engineer Associate",
+      "date": "2026"
+    },
+    {
+      "name": "AWS Certified AI Practitioner",
+      "date": "2026"
+    },
+    {
+      "name": "AWS Certified Solutions Architect – Associate",
+      "date": "2026"
+    },
+    {
+      "name": "SnowPro Associate: Platform Certification",
+      "date": "2026"
+    },
+    {
+      "name": "Microsoft Certified: Security, Compliance and Identity Fundamentals",
+      "date": "2026"
+    },
+    {
+      "name": "Google Cloud Digital Leader",
+      "date": "2026"
+    },
+    {
+      "name": "Google Generative AI Leader",
+      "date": "2025"
+    },
+    {
+      "name": "Salesforce Tableau Desktop Foundations",
+      "date": "2025"
+    },
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "date": "2023"
+    },
+    {
+      "name": "Microsoft Power Platform Fundamentals",
+      "date": "2023"
+    },
+    {
+      "name": "Microsoft 365 Fundamentals",
+      "date": "2023"
+    },
+    {
+      "name": "Microsoft Azure AI Fundamentals",
+      "date": "2022"
+    },
+    {
+      "name": "Microsoft Azure Data Fundamentals",
+      "date": "2022"
+    },
+    {
+      "name": "Microsoft Azure Fundamentals",
+      "date": "2022"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Machine Learning & Statistics",
+      "keywords": [
+        "Supervised and Unsupervised Learning",
+        "Classification",
+        "Decision Trees",
+        "Random Forests",
+        "Clustering (K-Means, hierarchical)",
+        "Regression",
+        "Time Series Forecasting",
+        "Statistical Process Control",
+        "Record Linkage and Entity Resolution",
+        "Hypothesis Testing",
+        "Evaluation Design"
+      ]
+    },
+    {
+      "name": "AI Tooling & Responsible AI",
+      "keywords": [
+        "Generative AI and LLM copilots (Azure AI Foundry, Microsoft Copilot, Claude Code, Cursor, LM Studio, Ollama) for development and automation",
+        "Prompt Engineering",
+        "responsible-AI and public-sector transparency principles"
+      ]
+    },
+    {
+      "name": "Programming & Analytics",
+      "keywords": [
+        "Python (pandas, NumPy, scikit-learn, Matplotlib, Seaborn)",
+        "SQL and T-SQL (advanced)",
+        "R (basic)",
+        "PySpark"
+      ]
+    },
+    {
+      "name": "ML Platforms & Tools",
+      "keywords": [
+        "Azure ML",
+        "AWS SageMaker",
+        "Google Vertex AI",
+        "Databricks",
+        "MLflow",
+        "HuggingFace",
+        "Jupyter",
+        "Docker",
+        "Git and GitHub",
+        "Azure DevOps",
+        "CI/CD",
+        "VS Code"
+      ]
+    },
+    {
+      "name": "Data Engineering",
+      "keywords": [
+        "ETL pipelines",
+        "SQL Server",
+        "MongoDB",
+        "BigQuery",
+        "Snowflake",
+        "Azure Data Lake",
+        "Amazon S3",
+        "Microsoft Fabric",
+        "data warehousing"
+      ]
+    },
+    {
+      "name": "Cloud & Visualisation",
+      "keywords": [
+        "Azure (certified)",
+        "AWS (certified)",
+        "Google Cloud (certified)",
+        "Snowflake (certified)",
+        "Power BI",
+        "Tableau (certified)",
+        "AWS QuickSight",
+        "Streamlit"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Evidence agent for an evaluation library",
+      "description": "A grounded Copilot agent instructed to grade evidence strength and to abstain when the library cannot support an answer, with a 20-question benchmark",
+      "entity": "NHS England",
+      "roles": [
+        "Evaluation Senior Manager and Analytics Lead"
+      ],
+      "keywords": [
+        "Microsoft 365 Copilot agents",
+        "retrieval-augmented generation on a managed platform",
+        "instruction design for grounded answers",
+        "evaluation benchmark and rubric design",
+        "adversarial testing",
+        "evaluation methodology"
+      ],
+      "url": "https://stanleyewenike.github.io/projects/nhse-evidence-library-agent/"
+    },
+    {
+      "name": "Clinical Entrepreneur Programme evidence pipeline",
+      "description": "Reproducible record linkage with gated tests and outputs byte-identical across runs",
+      "entity": "NHS England",
+      "roles": [
+        "Evaluation Senior Manager and Analytics Lead"
+      ],
+      "keywords": [
+        "Python (pandas, rapidfuzz, python-docx, python-pptx)",
+        "Jupyter and papermill",
+        "pytest",
+        "git",
+        "record linkage and entity resolution",
+        "logic models",
+        "reproducible analytical pipelines (RAP)",
+        "Easy Read reporting"
+      ],
+      "url": "https://stanleyewenike.github.io/projects/nhse-cep-evidence-pipeline/"
+    },
+    {
+      "name": "Evidence and delivery for a shorter national reporting window",
+      "description": "Cut from six weeks to three",
+      "entity": "NHS England",
+      "roles": [
+        "Evaluation Senior Manager and Analytics Lead"
+      ],
+      "keywords": [
+        "Programme and timeline management",
+        "supplier oversight",
+        "data quality governance",
+        "Python automation",
+        "stakeholder communication",
+        "structured handover"
+      ],
+      "url": "https://stanleyewenike.github.io/projects/nhse-cds-timelines-handover/"
+    },
+    {
+      "name": "Common data model for innovation programmes",
+      "description": "13 datasets resolved into one model, with an 11-page Streamlit app",
+      "entity": "NHS England",
+      "roles": [
+        "Evaluation Senior Manager and Analytics Lead"
+      ],
+      "keywords": [
+        "Python",
+        "Pydantic",
+        "pandas",
+        "SQLite",
+        "dimensional modelling",
+        "entity resolution (rapidfuzz)",
+        "Streamlit",
+        "Plotly",
+        "pytest",
+        "Faker",
+        "YAML configuration",
+        "accessibility design"
+      ],
+      "url": "https://stanleyewenike.github.io/projects/nhse-aac-common-data-model/"
+    },
+    {
+      "name": "NHS Innovation Service dashboard",
+      "description": "Remodel cut 517 calculations to 98, with a governed metric dictionary",
+      "entity": "NHS England",
+      "roles": [
+        "Data Analyst, then Evaluation Senior Manager and Analytics Lead"
+      ],
+      "keywords": [
+        "Tableau (data modelling, calculations, dashboard design)",
+        "T-SQL",
+        "metric governance",
+        "requirements gathering",
+        "user acceptance testing",
+        "technical documentation"
+      ],
+      "url": "https://stanleyewenike.github.io/projects/nhse-innovation-service-dashboard/"
+    },
+    {
+      "name": "Quarterly data pipeline and assurance dashboard",
+      "description": "15 network data packs from one command, with an 8-page Streamlit app",
+      "entity": "NHS England",
+      "roles": [
+        "Evaluation Senior Manager and Analytics Lead"
+      ],
+      "keywords": [
+        "Python (pandas, Plotly, matplotlib, python-pptx, python-docx, nbconvert)",
+        "Streamlit",
+        "parallel processing",
+        "data quality frameworks",
+        "automated reporting",
+        "reconciliation testing",
+        "SOP and RAP documentation"
+      ],
+      "url": "https://stanleyewenike.github.io/projects/nhse-cds-quarterly-pipeline-dashboard/"
+    },
+    {
+      "name": "Reporting readiness assurance for 15 networks",
+      "description": "Full response rate from a proportionate instrument",
+      "entity": "NHS England",
+      "roles": [
+        "Evaluation Senior Manager and Analytics Lead"
+      ],
+      "keywords": [
+        "Assurance framework design",
+        "template and survey design",
+        "stakeholder consultation",
+        "qualitative synthesis",
+        "maturity modelling",
+        "SWOT",
+        "MoSCoW",
+        "report writing for senior governance"
+      ],
+      "url": "https://stanleyewenike.github.io/projects/nhse-hin-cds-assurance-snapshot/"
+    },
+    {
+      "name": "Reproducible pipeline for assurance returns",
+      "description": "Word documents to scored data and an automatically generated deck",
+      "entity": "NHS England",
+      "roles": [
+        "Evaluation Senior Manager and Analytics Lead"
+      ],
+      "keywords": [
+        "Python (python-docx, python-pptx, matplotlib, pandas, regular expressions)",
+        "rule-based text analysis",
+        "RAP design",
+        "automated reporting"
+      ],
+      "url": "https://stanleyewenike.github.io/projects/nhse-hin-assurance-rap/"
+    },
+    {
+      "name": "Data infrastructure for a national minimum dataset",
+      "description": "Lakehouse architecture and data models",
+      "entity": "NHS England",
+      "roles": [
+        "Evaluation Senior Manager and Analytics Lead"
+      ],
+      "keywords": [
+        "Data architecture (medallion pattern, lakehouse)",
+        "Azure Data Lake",
+        "Databricks and Delta Lake (architecture design)",
+        "data validation",
+        "ERD and dimensional modelling",
+        "Mermaid",
+        "Python Faker"
+      ],
+      "url": "https://stanleyewenike.github.io/projects/nhse-dh-mds-data-infrastructure/"
+    },
+    {
+      "name": "Research and innovation KPI dashboards",
+      "description": "Inherited and extended Tableau products",
+      "entity": "NHS England (Accelerated Access Collaborative)",
+      "roles": [
+        "Evaluation Senior Manager and Analytics Lead"
+      ],
+      "keywords": [
+        "Tableau (calculated fields, parameters, interactive design)",
+        "KPI reporting",
+        "taking over and maintaining existing BI products",
+        "research delivery metrics"
+      ],
+      "url": "https://stanleyewenike.github.io/projects/nhse-aac-information-portal/"
+    },
+    {
+      "name": "Benefits and outcomes data collection",
+      "description": "Outcomes model built into an ICB template",
+      "entity": "NHS England",
+      "roles": [
+        "Evaluation Senior Manager and Analytics Lead"
+      ],
+      "keywords": [
+        "Excel template design (lookups, validation)",
+        "outcomes and benefits frameworks",
+        "data collection design",
+        "stakeholder piloting"
+      ],
+      "url": "https://stanleyewenike.github.io/projects/nhse-htaaf-data-collection/"
+    },
+    {
+      "name": "Revalidation submission dashboard and GMC reference data quality report",
+      "description": "A live dashboard for revalidation teams, and completeness and validity measures for doctors' GMC references",
+      "entity": "NHS England",
+      "roles": [
+        "Data Analyst"
+      ],
+      "keywords": [
+        "Tableau (published data sources, data blending, level-of-detail expressions, parameters)",
+        "data quality measurement",
+        "KPI design",
+        "prototyping with users"
+      ],
+      "url": "https://stanleyewenike.github.io/projects/nhse-tis-revalidation-gmc-reporting/"
+    },
+    {
+      "name": "Covid-era analytics across clinical systems",
+      "description": "During the Covid period I delivered SQL analyses that joined several clinical systems.",
+      "entity": "Warrington and Halton Teaching Hospitals NHS Foundation Trust",
+      "roles": [
+        "Principal Information Analyst"
+      ],
+      "keywords": [
+        "T-SQL (multi-system joins, window functions, cohort definitions)",
+        "Lorenzo",
+        "ICE",
+        "ePMA",
+        "pathology and BadgerNet data",
+        "regional data sharing",
+        "Freedom of Information responses"
+      ],
+      "url": "https://stanleyewenike.github.io/projects/whh-analytics-portfolio/"
+    },
+    {
+      "name": "Ophthalmology follow-up prioritisation (GIRFT)",
+      "description": "I built a T-SQL stored procedure and a Power BI report showing which ophthalmology follow-up patients were overdue against their Guaranteed Activity Date.",
+      "entity": "Warrington and Halton Teaching Hospitals NHS Foundation Trust",
+      "roles": [
+        "Principal Information Analyst"
+      ],
+      "keywords": [
+        "T-SQL (stored procedures, date logic)",
+        "Power BI",
+        "outpatient waiting-list data",
+        "GIRFT standards",
+        "data quality flagging"
+      ],
+      "url": "https://stanleyewenike.github.io/projects/whh-girft-ophthalmology-prioritisation/"
+    },
+    {
+      "name": "Data Quality Assessment Tool",
+      "description": "I built a SQL-based Data Quality Assessment Tool and a set of targeted checks covering NHS number validity, duplicate records, A&E data quality and outpatient outcomes.",
+      "entity": "Southport and Ormskirk Hospital NHS Trust",
+      "roles": [
+        "Data Quality Analyst"
+      ],
+      "keywords": [
+        "T-SQL (functions, stored procedures, views, scheduled jobs)",
+        "SSRS",
+        "data quality dimensions",
+        "NHS number validation",
+        "statistical process control"
+      ],
+      "url": "https://stanleyewenike.github.io/projects/sohft-data-quality-assessment-tool/"
+    },
+    {
+      "name": "Maternity analytics: customised growth centiles",
+      "description": "I prepared maternity system data for bulk calculation of GROW customised birthweight centiles, which are used to identify small-for-gestational-age babies and fetal growth restriction.",
+      "entity": "Manchester University NHS Foundation Trust",
+      "roles": [
+        "Senior Information Analyst"
+      ],
+      "keywords": [
+        "SQL",
+        "maternity data (SMMIS, K2)",
+        "GROW customised centiles",
+        "regional dashboard support"
+      ],
+      "url": "https://stanleyewenike.github.io/projects/mft-maternity-analytics/"
+    },
+    {
+      "name": "Maternity safety dashboards and analysis",
+      "description": "As the maternity data analyst, I built dashboards for national maternity safety standards, ran in-depth analyses of adverse outcomes, automated administrative tasks, and trained staff on the maternity systems.",
+      "entity": "Lancashire Teaching Hospitals NHS Foundation Trust",
+      "roles": [
+        "Data Analyst (maternity)"
+      ],
+      "keywords": [
+        "Clinical dashboard design",
+        "maternity safety standards (CNST, Saving Babies' Lives)",
+        "BadgerNet",
+        "K2MS",
+        "VBA",
+        "Microsoft Forms",
+        "staff training",
+        "system testing"
+      ],
+      "url": "https://stanleyewenike.github.io/projects/lthtr-maternity-analytics/"
+    },
+    {
+      "name": "Conference committee roles",
+      "description": "I have held 7 committee roles at international computing conferences in distributed systems, the Internet of Things and edge computing, mostly alongside full-time NHS work.",
+      "entity": "International computing conferences",
+      "roles": [
+        "Publicity Chair, Publicity Co-Chair, Technical Program Committee member"
+      ],
+      "keywords": [
+        "Research community engagement",
+        "conference promotion",
+        "peer review",
+        "event coordination"
+      ],
+      "url": "https://stanleyewenike.github.io/projects/academic-service/"
+    },
+    {
+      "name": "PhD: context-aware collaboration architecture",
+      "description": "My doctoral thesis, \"An Activity Theory-Based Architecture to Enhance Context-Aware Collaboration in Software Development in the Cloud\" (327 pages), proposes and demonstrates an architecture that captures and uses context to support collaboration between distributed software teams.",
+      "entity": "Staffordshire University",
+      "roles": [
+        "PhD researcher"
+      ],
+      "keywords": [
+        "Systematic review",
+        "thematic analysis",
+        "software architecture (microservices, API gateway, publish/subscribe)",
+        "AWS",
+        "PHP",
+        "MySQL",
+        "Redis",
+        "requirements engineering",
+        "load testing",
+        "academic writing"
+      ],
+      "url": "https://stanleyewenike.github.io/projects/phd-research/"
+    },
+    {
+      "name": "Heart disease prediction RAP",
+      "description": "An end-to-end logistic regression pipeline that predicts heart disease from the public UCI heart disease dataset.",
+      "entity": "Personal project (technical assessment)",
+      "roles": [
+        "Sole author"
+      ],
+      "keywords": [
+        "Python",
+        "pandas",
+        "scikit-learn",
+        "cross-validation",
+        "ROC and AUC evaluation",
+        "RAP principles",
+        "git"
+      ],
+      "url": "https://stanleyewenike.github.io/projects/heart-disease-rap/"
+    },
+    {
+      "name": "Document classification and entity extraction",
+      "description": "A pipeline that turns scanned documents into text with OCR, classifies each page with a zero-shot transformer model and keyword rules, and extracts key entities.",
+      "entity": "Personal project (technical challenge)",
+      "roles": [
+        "Sole author"
+      ],
+      "keywords": [
+        "Python",
+        "Tesseract OCR",
+        "Hugging Face Transformers (zero-shot classification)",
+        "spaCy",
+        "regular expressions",
+        "pytest"
+      ],
+      "url": "https://stanleyewenike.github.io/projects/document-classification/"
+    },
+    {
+      "name": "CareerForge AI: career decision support",
+      "description": "CareerForge AI is a career decision-support tool for people running many job applications at once.",
+      "entity": "Personal project",
+      "roles": [
+        "Sole designer"
+      ],
+      "keywords": [
+        "Claude skills and prompt design",
+        "web-search grounding",
+        "Excel",
+        "product requirements and release planning",
+        "solution architecture"
+      ],
+      "url": "https://stanleyewenike.github.io/projects/careerforge-ai/"
+    },
+    {
+      "name": "Career evidence workspace and portfolio website",
+      "description": "A version-controlled workspace that holds the evidence for my career and builds tailored CVs and this website from one master record, checking every claim automatically.",
+      "entity": "Personal project",
+      "roles": [
+        "Owner"
+      ],
+      "keywords": [
+        "Agentic AI workflows",
+        "test-driven development",
+        "pytest",
+        "Playwright and axe-core",
+        "CI/CD (GitHub Actions)",
+        "static site generation in Python",
+        "git"
+      ],
+      "url": "https://stanleyewenike.github.io/projects/career-workspace-website/"
+    },
+    {
+      "name": "Patient appointment no-show analysis",
+      "description": "An analysis of missed appointments by condition and GP practice, with relational and dimensional data models and Azure infrastructure-as-code templates for hosting.",
+      "entity": "Personal project (technical assessment)",
+      "roles": [
+        "Sole author"
+      ],
+      "keywords": [
+        "Python",
+        "Jupyter",
+        "SQL",
+        "descriptive analysis",
+        "relational and dimensional modelling",
+        "Azure infrastructure as code"
+      ],
+      "url": "https://stanleyewenike.github.io/projects/patient-no-show-analysis/"
+    },
+    {
+      "name": "Digital portal impact evaluation",
+      "description": "An evaluation of whether introducing a digital portal was associated with shorter hospital stays, overall and by admission type.",
+      "entity": "Personal project (technical assessment)",
+      "roles": [
+        "Sole author"
+      ],
+      "keywords": [
+        "Python",
+        "Jupyter",
+        "before/after evaluation",
+        "hypothesis testing"
+      ],
+      "url": "https://stanleyewenike.github.io/projects/portal-impact-evaluation/"
+    }
+  ],
+  "meta": {
+    "lastModified": "2026-11-13"
+  }
+}

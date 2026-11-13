@@ -1,0 +1,8 @@
+{
+  "updated": "2026-11-13",
+  "endpoints": {
+    "resume": "https://stanleyewenike.github.io/resume.json",
+    "projects": "https://stanleyewenike.github.io/api/projects.json"
+  },
+  "resumeSchema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json"
+}

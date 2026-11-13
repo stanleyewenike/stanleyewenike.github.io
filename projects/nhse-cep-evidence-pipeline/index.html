@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clinical Entrepreneur Programme evidence pipeline | Stanley Francis Ewenike</title>
+<meta name="description" content="Reproducible record linkage with gated tests and outputs byte-identical across runs">
+<link rel="canonical" href="https://stanleyewenike.github.io/projects/nhse-cep-evidence-pipeline/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Clinical Entrepreneur Programme evidence pipeline | Stanley Francis Ewenike">
+<meta property="og:description" content="Reproducible record linkage with gated tests and outputs byte-identical across runs">
+<meta property="og:url" content="https://stanleyewenike.github.io/projects/nhse-cep-evidence-pipeline/">
+<meta name="twitter:card" content="summary">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="stylesheet" href="/style.css">
+
+</head>
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="wrap">
+<a class="brand" href="/">Stanley Francis Ewenike</a>
+<nav aria-label="Main">
+<ul role="list">
+<li><a href="/#work">Work</a></li>
+<li><a href="/#experience">Experience</a></li>
+<li><a href="/#skills">Skills</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+<button type="button" class="theme-toggle needs-js" aria-label="Switch theme"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path class="moon" d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/><g class="sun"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></svg></button>
+</div>
+</header>
+<main id="main">
+<article class="wrap narrow project">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/#work">Selected work</a><span aria-hidden="true">/</span><span>NHS England</span></nav>
+<header>
+<h1>Clinical Entrepreneur Programme evidence pipeline</h1>
+<dl class="facts"><div><dt>Organisation</dt><dd>NHS England</dd></div><div><dt>Role</dt><dd>Evaluation Senior Manager and Analytics Lead</dd></div><div><dt>Period</dt><dd>2026</dd></div></dl></header>
+<section><p class="lead">I built a tested Python pipeline that links participants in the NHS Clinical Entrepreneur Programme to the companies they founded and to the funding and support those companies received, so that the programme's economic impact can be evidenced.</p></section><div class="page-tools needs-js"><button type="button" class="button quiet small" data-collapse-all>Collapse all</button></div><section><h2 id="s-situation" data-collapse="s-situation-panel">Situation</h2><div class="panel" id="s-situation-panel"><p>The programme lead wanted to add company, funding and support information for more than 1,700 participants. The data had no company identifiers, its company names were inconsistent, and many entries were placeholders.</p></div></section><section><h2 id="s-task" data-collapse="s-task-panel">Task</h2><div class="panel" id="s-task-panel"><p>Add the requested fields with defensible matches, show clearly what the data can and cannot support, and make the analysis fully reproducible.</p></div></section><section><h2 id="s-action" data-collapse="s-action-panel">Action</h2><div class="panel" id="s-action-panel"><ul><li>Agreed a revised scope with the sponsor. Set separate match axes for person and company, and an evidence hierarchy in which a name-only match is never treated as confirmed.</li><li>Checked the cohort against public company registers, research funding databases and NHS programme data, using ranked fuzzy matching.</li><li>Built a data quality rules engine, a logic model and an intake schema for future cohorts.</li><li>Wrote 28 Python modules with a pytest suite that runs as a gate. Pinned dependencies, and recorded run manifests with input hashes.</li><li>Generated the reports, including an Easy Read version, with every figure in the text drawn straight from the data.</li><li>Identified a striking result that came from survivorship bias in one data source, and withdrew it before publication. Corrected an overstated funding total before release.</li></ul></div></section><figure class="flow-figure"><ol class="flow" aria-label="How the work ran, step by step"><li>Agree the scope and match rules</li><li>Match the cohort to company, funding and NHS records</li><li>Apply the evidence hierarchy</li><li>Gate each run on the test suite</li><li>Generate the reports</li></ol></figure><section><h2 id="s-result" data-collapse="s-result-panel">Result</h2><div class="panel" id="s-result-panel"><ul><li>Delivered the requested fields, and no name-only match was counted as confirmed.</li><li>Outputs were byte-identical across independent runs, confirmed by SHA-256 hashes.</li><li>Presented the evidence to senior management after peer review, and produced a specification for collecting cleaner data from future cohorts.</li></ul></div></section><section><h2 id="s-skills-and-tools" data-collapse="s-skills-and-tools-panel">Skills and tools</h2><div class="panel" id="s-skills-and-tools-panel"><p>Python (pandas, rapidfuzz, python-docx, python-pptx), Jupyter and papermill, pytest, git, record linkage and entity resolution, logic models, reproducible analytical pipelines (RAP), Easy Read reporting.</p></div></section><section><h2 id="s-what-i-learnt" data-collapse="s-what-i-learnt-panel">What I learnt</h2><div class="panel" id="s-what-i-learnt-panel"><ul><li>Check what a data source cannot see before claiming an effect. Withdrawing a biased finding made the remaining evidence more credible.</li><li>Figures generated straight from the data, plus peer review, catch errors a careful author misses.</li><li>Push code to a shared remote from day one, and run human review of matches alongside the automated matching.</li></ul></div></section>
+<nav class="pager" aria-label="More projects"><a href="/projects/nhse-aac-common-data-model/" rel="next"><span>Next</span> Common data model for innovation programmes</a></nav>
+<p class="back"><a href="/#work">All projects</a></p>
+</article>
+</main>
+<footer class="site-footer" id="contact">
+<div class="wrap">
+<h2>Contact</h2>
+<ul class="contact" role="list"><li><a href="mailto:stanleyewenike@icloud.com">stanleyewenike@icloud.com</a><button type="button" class="chip copy needs-js" aria-label="Copy email address">Copy</button><span class="copy-status" role="status"></span></li><li><a href="https://linkedin.com/in/stan-ewenike">LinkedIn</a></li><li><a href="https://github.com/stanleyewenike/my_portfolio">GitHub</a></li><li><a href="https://credly.com/users/stanley-ewenike">Credly</a></li><li><a href="https://scholar.google.com/citations?user=0mQPz98AAAAJ">Google Scholar</a></li><li><a href="https://orcid.org/0000-0002-0561-1383">ORCID</a></li><li><a href="https://scopus.com/authid/detail.uri?authorId=57191241816">Scopus</a></li></ul>
+<p class="small">Preston, Lancashire, UK</p>
+<p class="small">Data for other tools: <a href="/resume.json">resume.json</a> (JSON Resume format) and <a href="/api/projects.json">api/projects.json</a>. Updated 13 Nov 2026.</p>
+<p class="small to-top"><a href="#top">Back to top</a></p>
+</div>
+</footer>
+<script src="/site.js" defer></script>
+</body>
+</html>

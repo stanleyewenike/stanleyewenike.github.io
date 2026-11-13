@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Common data model for innovation programmes | Stanley Francis Ewenike</title>
+<meta name="description" content="13 datasets resolved into one model, with an 11-page Streamlit app">
+<link rel="canonical" href="https://stanleyewenike.github.io/projects/nhse-aac-common-data-model/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Common data model for innovation programmes | Stanley Francis Ewenike">
+<meta property="og:description" content="13 datasets resolved into one model, with an 11-page Streamlit app">
+<meta property="og:url" content="https://stanleyewenike.github.io/projects/nhse-aac-common-data-model/">
+<meta name="twitter:card" content="summary">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="stylesheet" href="/style.css">
+
+</head>
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="wrap">
+<a class="brand" href="/">Stanley Francis Ewenike</a>
+<nav aria-label="Main">
+<ul role="list">
+<li><a href="/#work">Work</a></li>
+<li><a href="/#experience">Experience</a></li>
+<li><a href="/#skills">Skills</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+<button type="button" class="theme-toggle needs-js" aria-label="Switch theme"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path class="moon" d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/><g class="sun"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></svg></button>
+</div>
+</header>
+<main id="main">
+<article class="wrap narrow project">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/#work">Selected work</a><span aria-hidden="true">/</span><span>NHS England</span></nav>
+<header>
+<h1>Common data model for innovation programmes</h1>
+<dl class="facts"><div><dt>Organisation</dt><dd>NHS England</dd></div><div><dt>Role</dt><dd>Evaluation Senior Manager and Analytics Lead</dd></div><div><dt>Period</dt><dd>2026</dd></div></dl></header>
+<section><p class="lead">I built a prototype platform that combines 13 datasets from 6 national innovation programmes into one data model. It recognises the same innovator or innovation across programmes, maps each one to a shared lifecycle, and presents the results in an 11-page Streamlit app.</p></section><div class="page-tools needs-js"><button type="button" class="button quiet small" data-collapse-all>Collapse all</button></div><section><h2 id="s-situation" data-collapse="s-situation-panel">Situation</h2><div class="panel" id="s-situation-panel"><p>The programmes shared no common identifiers, and few company names matched exactly between datasets. Tracing an innovator across programmes needed manual matching.</p></div></section><section><h2 id="s-task" data-collapse="s-task-panel">Task</h2><div class="panel" id="s-task-panel"><p>Link the datasets into one model, keep an audit trail for every match, and give analysts and stakeholders a way to explore the results.</p></div></section><section><h2 id="s-action" data-collapse="s-action-panel">Action</h2><div class="panel" id="s-action-panel"><ul><li>Designed a dimensional schema of 28 tables and 7 views, with personal data redacted in the views.</li><li>Built an ETL pipeline in Python with Pydantic validation.</li><li>Matched records in tiers, logging every decision: company registration number, then exact name, then fuzzy match, then manual review.</li><li>Built an 11-page Streamlit app with an interactive ERD, a lifecycle funnel, a Sankey diagram, programme views, a review queue for uncertain matches, and a data quality report.</li><li>Added accessibility options: high contrast, larger text, keyboard focus and an NHS colour theme.</li><li>Wrote 42 automated tests, a synthetic data generator, separate test and production modes, and a one-command build.</li></ul></div></section><figure class="flow-figure"><ol class="flow" aria-label="How the work ran, step by step"><li>Design the schema</li><li>Extract and validate in Python</li><li>Match records in tiers</li><li>Queue uncertain matches for review</li><li>Explore in the Streamlit app</li></ol></figure><section><h2 id="s-result" data-collapse="s-result-panel">Result</h2><div class="panel" id="s-result-panel"><ul><li>Resolved 7,000+ records into about 1,300 unique innovators and 1,400 innovations, with an audit record for every match decision.</li><li>The full pipeline runs in about 20 seconds.</li><li>The prototype formed the basis of a proposal to develop the platform further.</li></ul></div></section><section><h2 id="s-skills-and-tools" data-collapse="s-skills-and-tools-panel">Skills and tools</h2><div class="panel" id="s-skills-and-tools-panel"><p>Python, Pydantic, pandas, SQLite, dimensional modelling, entity resolution (rapidfuzz), Streamlit, Plotly, pytest, Faker, YAML configuration, accessibility design.</p></div></section><section><h2 id="s-what-i-learnt" data-collapse="s-what-i-learnt-panel">What I learnt</h2><div class="panel" id="s-what-i-learnt-panel"><ul><li>Linking data across programmes is mainly an audit problem. Every match needs a reason that can be traced.</li><li>A working prototype is the strongest argument for investment.</li><li>Plan security and version control from the first iteration.</li></ul></div></section>
+<nav class="pager" aria-label="More projects"><a href="/projects/nhse-cep-evidence-pipeline/" rel="prev"><span>Previous</span> Clinical Entrepreneur Programme evidence pipeline</a><a href="/projects/nhse-innovation-service-dashboard/" rel="next"><span>Next</span> NHS Innovation Service dashboard</a></nav>
+<p class="back"><a href="/#work">All projects</a></p>
+</article>
+</main>
+<footer class="site-footer" id="contact">
+<div class="wrap">
+<h2>Contact</h2>
+<ul class="contact" role="list"><li><a href="mailto:stanleyewenike@icloud.com">stanleyewenike@icloud.com</a><button type="button" class="chip copy needs-js" aria-label="Copy email address">Copy</button><span class="copy-status" role="status"></span></li><li><a href="https://linkedin.com/in/stan-ewenike">LinkedIn</a></li><li><a href="https://github.com/stanleyewenike/my_portfolio">GitHub</a></li><li><a href="https://credly.com/users/stanley-ewenike">Credly</a></li><li><a href="https://scholar.google.com/citations?user=0mQPz98AAAAJ">Google Scholar</a></li><li><a href="https://orcid.org/0000-0002-0561-1383">ORCID</a></li><li><a href="https://scopus.com/authid/detail.uri?authorId=57191241816">Scopus</a></li></ul>
+<p class="small">Preston, Lancashire, UK</p>
+<p class="small">Data for other tools: <a href="/resume.json">resume.json</a> (JSON Resume format) and <a href="/api/projects.json">api/projects.json</a>. Updated 13 Nov 2026.</p>
+<p class="small to-top"><a href="#top">Back to top</a></p>
+</div>
+</footer>
+<script src="/site.js" defer></script>
+</body>
+</html>

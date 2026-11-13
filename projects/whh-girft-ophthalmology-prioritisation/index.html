@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ophthalmology follow-up prioritisation against the GIRFT standard | Stanley Francis Ewenike</title>
+<meta name="description" content="I built a T-SQL stored procedure and a Power BI report showing which ophthalmology follow-up patients were overdue against their Guaranteed Activity Date.">
+<link rel="canonical" href="https://stanleyewenike.github.io/projects/whh-girft-ophthalmology-prioritisation/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ophthalmology follow-up prioritisation against the GIRFT standard | Stanley Francis Ewenike">
+<meta property="og:description" content="I built a T-SQL stored procedure and a Power BI report showing which ophthalmology follow-up patients were overdue against their Guaranteed Activity Date.">
+<meta property="og:url" content="https://stanleyewenike.github.io/projects/whh-girft-ophthalmology-prioritisation/">
+<meta name="twitter:card" content="summary">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="stylesheet" href="/style.css">
+
+</head>
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="wrap">
+<a class="brand" href="/">Stanley Francis Ewenike</a>
+<nav aria-label="Main">
+<ul role="list">
+<li><a href="/#work">Work</a></li>
+<li><a href="/#experience">Experience</a></li>
+<li><a href="/#skills">Skills</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+<button type="button" class="theme-toggle needs-js" aria-label="Switch theme"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path class="moon" d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/><g class="sun"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></svg></button>
+</div>
+</header>
+<main id="main">
+<article class="wrap narrow project">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/#work">Selected work</a><span aria-hidden="true">/</span><span>NHS trusts</span></nav>
+<header>
+<h1>Ophthalmology follow-up prioritisation against the GIRFT standard</h1>
+<dl class="facts"><div><dt>Organisation</dt><dd>Warrington and Halton Teaching Hospitals NHS Foundation Trust</dd></div><div><dt>Role</dt><dd>Principal Information Analyst</dd></div><div><dt>Period</dt><dd>2021</dd></div></dl></header>
+<section><p class="lead">I built a T-SQL stored procedure and a Power BI report showing which ophthalmology follow-up patients were overdue against their Guaranteed Activity Date. The service used them to prioritise patients against the Getting It Right First Time (GIRFT) failsafe standard.</p></section><div class="page-tools needs-js"><button type="button" class="button quiet small" data-collapse-all>Collapse all</button></div><section><h2 id="s-situation" data-collapse="s-situation-panel">Situation</h2><div class="panel" id="s-situation-panel"><p>Follow-up patients across three ophthalmology services had to be seen within 25% of their Guaranteed Activity Date, against a 95% target. The service had no reliable view of who was overdue.</p></div></section><section><h2 id="s-task" data-collapse="s-task-panel">Task</h2><div class="panel" id="s-task-panel"><p>Produce a refreshable view of performance against the standard, and a patient-level list for clinical prioritisation.</p></div></section><section><h2 id="s-action" data-collapse="s-action-panel">Action</h2><div class="panel" id="s-action-panel"><ul><li>Wrote a stored procedure joining the outpatient waiting-list, appointment and offer data.</li><li>Used the later of the Guaranteed Activity Date and the patient's "do not offer before" date, so that patients were not shown as breaching when they had asked to be seen later.</li><li>Added data quality flags for removals with no next appointment, missing wait days and past-dated appointments. Flagged records were held apart rather than silently counted.</li><li>Built a Power BI report with a scheduled refresh.</li></ul></div></section><section><h2 id="s-result" data-collapse="s-result-panel">Result</h2><div class="panel" id="s-result-panel"><p>The service gained a monthly trend against the 95% target, an overdue summary and a patient-level breach list. These were used to prioritise patients and to pilot service changes.</p></div></section><section><h2 id="s-skills-and-tools" data-collapse="s-skills-and-tools-panel">Skills and tools</h2><div class="panel" id="s-skills-and-tools-panel"><p>T-SQL (stored procedures, date logic), Power BI, outpatient waiting-list data, GIRFT standards, data quality flagging.</p></div></section><section><h2 id="s-what-i-learnt" data-collapse="s-what-i-learnt-panel">What I learnt</h2><div class="panel" id="s-what-i-learnt-panel"><ul><li>For waiting-list standards, the date rule is the analysis. Agree it with clinicians first.</li><li>Data quality flags give the admin team a work list rather than discarded records.</li><li>Capture a baseline before a service change, so the improvement can be shown.</li></ul></div></section>
+<nav class="pager" aria-label="More projects"><a href="/projects/whh-analytics-portfolio/" rel="prev"><span>Previous</span> Covid-era analytics across clinical systems</a><a href="/projects/sohft-data-quality-assessment-tool/" rel="next"><span>Next</span> Data Quality Assessment Tool</a></nav>
+<p class="back"><a href="/#work">All projects</a></p>
+</article>
+</main>
+<footer class="site-footer" id="contact">
+<div class="wrap">
+<h2>Contact</h2>
+<ul class="contact" role="list"><li><a href="mailto:stanleyewenike@icloud.com">stanleyewenike@icloud.com</a><button type="button" class="chip copy needs-js" aria-label="Copy email address">Copy</button><span class="copy-status" role="status"></span></li><li><a href="https://linkedin.com/in/stan-ewenike">LinkedIn</a></li><li><a href="https://github.com/stanleyewenike/my_portfolio">GitHub</a></li><li><a href="https://credly.com/users/stanley-ewenike">Credly</a></li><li><a href="https://scholar.google.com/citations?user=0mQPz98AAAAJ">Google Scholar</a></li><li><a href="https://orcid.org/0000-0002-0561-1383">ORCID</a></li><li><a href="https://scopus.com/authid/detail.uri?authorId=57191241816">Scopus</a></li></ul>
+<p class="small">Preston, Lancashire, UK</p>
+<p class="small">Data for other tools: <a href="/resume.json">resume.json</a> (JSON Resume format) and <a href="/api/projects.json">api/projects.json</a>. Updated 13 Nov 2026.</p>
+<p class="small to-top"><a href="#top">Back to top</a></p>
+</div>
+</footer>
+<script src="/site.js" defer></script>
+</body>
+</html>
